@@ -1,0 +1,129 @@
+*{
+    color: azure;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face{
+    font-family: VCR OSD mono;
+    src: url(/VCR_OSD_MONO_1.001.ttf)
+}
+@font-face{
+    font-family: Roboto;
+    src: url(/RobotoMono-Italic-VariableFont_wght.ttf)
+}
+
+body {background-image: url("img/fondo.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover;}
+
+   i{font-size: 50px;}
+
+
+.Título1 {
+    font-family: VCR OSD mono;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.Textos1 {
+    font-family: 'Roboto mono', space;
+    color: azure;
+    margin-left: 25%;
+    text-align: justify;
+    padding-right: 50px;
+    
+}
+
+.Imagenes{
+    width: 500px;
+    height: 350px;
+    margin: 30px;
+}
+
+.Navegacion{
+    background-color: rgba(177, 5, 5, 0.589);
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+
+.Navegacion a{
+    padding: 20px;
+    margin: auto;
+    border: 2px black solid;
+    text-emphasis: none;
+    text-decoration: none;
+    color: white;
+}
+
+.Navegacion a:hover{
+    background-color: rgb(187, 8, 8);
+    transition: .5s;
+    color: white;
+}
+
+.Navegacion a:active{ 
+    background-color: rgb(100, 177, 38);
+    border: whitesmoke 10px double;
+
+}
+
+
+.Fondotexto{
+    background-color: rgba(49, 25, 25, 0.747);
+    margin: 100px;
+    padding: 30px;
+}
+
+.Imagenunreal{
+    width: 500px;
+    height: 300px;
+    margin: 30px;
+}
+
+.placas{
+    font-size: 50px;
+ }
+
+.align{ 
+    text-align: justify;
+    padding: 25px;
+    margin-left: auto;
+
+}
+
+button{
+    padding: 20px;
+    margin: 80px;
+    background-color: rgb(177, 5, 5);
+    text-align: center;
+    font-size: 30px;  
+    text-decoration: none;  
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{ 
+    width: 20%;
+    display: inline;
+    margin: 15px;
+    flex-direction: row;
+
+}
+
+.pmadre{
+    height: 250px;
+    width: 200px;
+}
+.card-text{
+    color: black;
+}
+
+.card-title{color: black;}
